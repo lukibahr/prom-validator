@@ -15,6 +15,9 @@ Mount your configfiles to the /workdir directory and run:
 
 `/usr/bin/docker run -it -e PROM_VERSION=2.8.0 -v ./config:/workdir lukasbahr/prom-validator:master check config prometheus.yml`
 
+## CI/CD
+
+`git tag <PROM_VERSION>` && `git push --tags`
 
 ## Contrib
 
