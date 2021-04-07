@@ -19,6 +19,10 @@ Mount your configfiles to the /workdir directory and run:
 
 `git tag <PROM_VERSION>` && `git push --tags`
 
+## Open ToDos
+
+- add ability to validate prometheus.yml files within a Kubernetes configmap.
+
 ## Contrib
 
 - Lukas Bahr, <lukas@devopoly.de>
