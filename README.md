@@ -23,6 +23,10 @@ Mount your configfiles to the /workdir directory and run:
 
 - add ability to validate prometheus.yml files within a Kubernetes configmap.
 
+## Further reading
+
+- https://github.com/docker/build-push-action/blob/e1b7f96249f2e4c8e4ac1519b9608c0d48944a1f/UPGRADE.md
+
 ## Contrib
 
 - Lukas Bahr, <lukas@devopoly.de>
